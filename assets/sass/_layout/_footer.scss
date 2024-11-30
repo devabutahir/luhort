@@ -1,0 +1,143 @@
+/*------Footer Section Start--------*/
+/*------Footer Section Start--------*/
+.footer-section{
+	overflow: hidden;
+	background-color: var(--black-theme);
+}
+.footer-top {
+	.widget-items {
+		.footer-head {
+			margin-bottom: 18px;
+			.title {
+				font-weight: 400;
+				color: var(--white-color);
+				margin-top: -6px;
+			}
+		}
+		.content-area {
+			p{
+				color: var(--white-color);
+				margin-top: -5px;
+				margin-bottom: 23px;
+			}
+			.quick-link {
+				li {
+					display: flex;
+					align-items: center;
+					transition: all 0.5s;
+					margin-left: -20px;
+					&:not(:last-child) {
+						margin-bottom: 5px;
+					}
+					a {
+						@include flex;
+						font-size: 16px;
+						color: var(--white-color);
+						transition: all 0.5s;
+						margin-left: 16px;
+						img{
+							margin-right: -7px;
+							font-size: 20px;
+							opacity: 0;
+							transition: all 0.3s;
+						}
+					}
+					&:hover{
+						a{
+							color: var(--ratting-color);
+							img{
+								opacity: 1;
+								margin-right: 5px;
+							}
+						}
+					}
+				}
+			}
+			.contact{
+				li{
+					&:not(:last-child){
+						margin-bottom: 7px;
+					}
+					gap: 8px;
+					@include flex;
+					.phone-icon{
+						i{
+							color: var(--ratting-color);
+						}
+					}
+					.email-part{
+						font-size: 16px;
+						transition: all 0.3s;
+						color: var(--white-color);
+						font-weight: 400;
+					}
+					&:hover{
+						a{
+							color: var(--white-color);
+						}
+					}
+				}
+			}
+			.social{
+				@include flex;
+				justify-content: flex-start;
+				li{
+					&:not(:last-child){
+						margin-right: 10px;
+					}
+					.icon{
+						@include radius;
+						display: block;
+						width: 30px;
+						height: 30px;
+						line-height: 31px;
+						border-radius: 4px;
+						background: transparent;
+						border: 1px solid var(--white-color);
+						border-radius: 5px;
+						i{
+							color: var(--white-color);
+							font-size: 14px;
+						}
+						&:hover{
+							border-color: var(--theme-color);
+						}
+					}
+				}
+			}
+			form{
+				input{
+					border: 1px solid var(--white-color);
+					border-radius: 10px;
+					padding: 15px 30px;
+					outline: none;
+					box-shadow: none;
+					width: 100%;
+					background-color: transparent;
+					margin-bottom: 14px;
+				}
+				::placeholder{
+					color: var(--white-color);
+				}
+				.cmn--btn{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+.footer-bottom {
+	border-top: 1px solid #353535;
+	padding: 22px 0;
+	p{
+		text-align: center;
+		margin: 0 auto;
+		font-size: 16px;
+		color: var(--white-color);
+	}
+}
+
+///selecttor
+
+/*------Footer Section End--------*/
+/*------Footer Section End--------*/

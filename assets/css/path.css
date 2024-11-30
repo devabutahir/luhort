@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Palenight Italic",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "window.zoomLevel": 2,
+    "liveSassCompile.settings.autoprefix": [
+        
+
+    
+    ],
+    "liveSassCompile.settings.forceBaseDirectory": "",
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css/",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "color-highlight.rgbWithNoFunctionLanguages": [
+    
+        "*"
+    ],
+    "auto-rename-tag.activationOnLanguage": [
+        
+
+        "*"
+    ]
+}
+

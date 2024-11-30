@@ -1,0 +1,166 @@
+/*------Banner Section Start--------*/
+/*------Banner Section Start--------*/
+.hero-section{
+    background: url(../../assets/img/banner/banner.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    &::before{
+        position: absolute;
+        inset: 0;
+        content: "";
+        background: #2D325A;
+        opacity: 0.7;
+    }
+}
+.hero-content{
+    text-align: center;
+    margin: 0 auto;
+    padding: 125px 0 225px;
+    position: relative;
+    .ratting{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        span{
+            i{
+                color: var(--ratting-color);
+                font-size: 20px;
+            }
+        }
+    }
+    h5{
+        color: var(--white-color);
+    }
+    h1{
+        color: var(--white-color);
+        margin-bottom: 16px;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 400;
+        color: var(--white-color);
+        line-height: 34px;
+        margin-bottom: 31px;
+    }
+}
+/*------Breadcumnd Section End--------*/
+/*------Breadcumnd Section End--------*/
+.breadcumnd-section{
+    background: url(../../assets/img/banner/breadcunmd.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    &::before{
+        position: absolute;
+        inset: 0;
+        content: "";
+        background: #2D325A;
+        opacity: 0.7;
+    }
+}
+.breadcumd-content{
+    padding: 181px 0 189px;
+    position: relative;
+    h1{
+        color: var(--white-color);
+        margin-bottom: 2px;
+        text-transform: uppercase;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        li{
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--white-color);
+            i{
+                color: var(--white-color);
+            }
+            a{
+                font-size: 18px;
+                font-weight: 400;
+                color: var(--white-color);
+            }
+        }
+    }
+}
+/*-------Spa Banner-------*/
+.spa-banner{
+    position: relative;
+    .owl-nav{
+          button.owl-prev{
+              position: absolute;
+              bottom: 43%;
+              transform: translateY(-50%);
+              left: 120px;
+              line-height: 6px;
+              background: var(--border-two);
+              width: 48px;
+              height: 48px;
+              border-radius: 10px;
+              transition: all 0.3s;
+              i{
+                  font-size: 18px;
+                  color: var(--black-color);
+                  transition: all 0.3s;
+              }
+              &:hover{
+                background-color: var(--theme-color);
+                i{
+                  color: var(--white-color);
+                }
+              }
+          }
+          button.owl-next{
+              position: absolute;
+              bottom: 43%;
+              right: 120px;
+              transform: translateY(-50%);
+              line-height: 6px;
+              background: var(--border-two);
+              width: 48px;
+              height: 48px;
+              border-radius: 10px;
+              transition: all 0.3s;
+              i{
+                  font-size: 18px;
+                  line-height: 20px;
+              }
+              &:hover{
+                background-color: var(--theme-color);
+                i{
+                  color: var(--white-color);
+                }
+              }
+          }
+      }
+}
+.spa-items{
+    padding: 225px 0 235px;
+    .spa-content{
+        .section-title-head{
+            h1{
+                text-transform: uppercase;
+                letter-spacing: 4px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+    &::before{
+        position: absolute;
+        content: "";
+        inset: 0;
+        background: #2D325A;
+        opacity: 0.7;;
+    }
+}
+/*-------Spa Banner-------*/
+
