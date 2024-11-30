@@ -1721,7 +1721,7 @@
 
 //Story-about Section
 .story-about-wrapper{
-  border: 1px solid var(--base-color);
+  border: 1px solid #bdbdbd96;
   border-radius: 20px;
   padding: 30px 30px;
 }
@@ -2126,19 +2126,19 @@
           border-radius: 10px;
           width: 100%;
           border: none;
-          color: var(--black-theme);
-          border: 1px solid var(--base-color);
+          color: #000;
+          border: 1px solid #807e7e3b;
           box-shadow: none;
           outline: none;
+        }
+        &::placeholder{
+          color: #000;
         }
         i{
           position: absolute;
           right: 15px;
           top: 50%;
           transform: translateY(-50%);
-        }
-        ::placeholder{
-          color: var(--border-two);
         }
       }
     }
@@ -2185,7 +2185,7 @@
       .categories{
         li{
           &:not(:last-child){
-            margin-bottom: 5px;
+            margin-bottom: 11px;
           }
           a{
             display: flex;
@@ -2219,13 +2219,13 @@
       .tag{
         display: flex;
         flex-wrap: wrap;
-        gap: 20px 10px;
+        gap: 10px 10px;
         li{
           a{
             display: inline-block;
             background-color: var(--white-color);
             border-radius: 10px;
-            padding: 15px 20px;
+            padding: 10px 20px;
             font-size: 16px;
             font-weight: 400;
             color: var(--black-theme);

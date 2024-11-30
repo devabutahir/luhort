@@ -80,7 +80,7 @@ Section css
   --ratting-color: #E4A853;
   --pragraph-color: #666666;
   --border: #E4A853;
-  --border-two: #BDBDBD;
+  --border-two: #bdbdbd3b;
   --cate-border: #E1CFB7;
   --placehol: #b0bcde;
 }
@@ -2532,7 +2532,7 @@ p {
 }
 
 .story-about-wrapper {
-  border: 1px solid var(--base-color);
+  border: 1px solid rgba(189, 189, 189, 0.5882352941);
   border-radius: 20px;
   padding: 30px 30px;
 }
@@ -2894,22 +2894,22 @@ p {
   border-radius: 10px;
   width: 100%;
   border: none;
-  color: var(--black-theme);
-  border: 1px solid var(--base-color);
+  color: #000;
+  border: 1px solid rgba(128, 126, 126, 0.231372549);
   box-shadow: none;
   outline: none;
+}
+.right-blog-wrapper .common-items .seach-box form::-moz-placeholder {
+  color: #000;
+}
+.right-blog-wrapper .common-items .seach-box form::placeholder {
+  color: #000;
 }
 .right-blog-wrapper .common-items .seach-box form i {
   position: absolute;
   right: 15px;
   top: 50%;
   transform: translateY(-50%);
-}
-.right-blog-wrapper .common-items .seach-box form ::-moz-placeholder {
-  color: var(--border-two);
-}
-.right-blog-wrapper .common-items .seach-box form ::placeholder {
-  color: var(--border-two);
 }
 .right-blog-wrapper .common-items .recent-box .recent-items:not(:last-child) {
   margin-bottom: 30px;
@@ -2943,7 +2943,7 @@ p {
   transform: scale(1.1);
 }
 .right-blog-wrapper .common-items .categories-box .categories li:not(:last-child) {
-  margin-bottom: 5px;
+  margin-bottom: 11px;
 }
 .right-blog-wrapper .common-items .categories-box .categories li a {
   display: flex;
@@ -2971,13 +2971,13 @@ p {
 .right-blog-wrapper .common-items .tag-box .tag {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 10px;
+  gap: 10px 10px;
 }
 .right-blog-wrapper .common-items .tag-box .tag li a {
   display: inline-block;
   background-color: var(--white-color);
   border-radius: 10px;
-  padding: 15px 20px;
+  padding: 10px 20px;
   font-size: 16px;
   font-weight: 400;
   color: var(--black-theme);
